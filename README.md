@@ -14,3 +14,15 @@ For the RGB picture, there are 3 color channels called B,G,R and we need to mult
 <img width="391" alt="screen shot 2017-11-05 at 8 54 11 pm" src="https://user-images.githubusercontent.com/31743714/32423136-ab93157e-c272-11e7-9e31-5cd1664b360b.png">
 
 the range of pixel values for each colorspaces are all [0,255]
+
+# Exercise 3:
+
+Please find in the exercise3 folder
+
+#### Exercise 4:
+
+1.when we set the threshold value higher, we got a brighter picture which means that the thresholded picture tend to be white. Also, the band threshold picture tend to be brighter. But the Binary threshold value tend to be darker.
+
+2.The binary threshold requires a specific light environment to be applied and you can not extend the application to 3D, also, binary threshold will lose a huge amount of information in the picture.
+
+3.When the environment changes rapidly, the adaptive threshold will be useful, like the varing illumination, or the background changes a lot.
