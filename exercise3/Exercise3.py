@@ -16,8 +16,7 @@ def Add_salt_pepper_Noise(img,pa,pb):
         img[int(random.uniform(0,row))][int(random.uniform(0,col))]=255
         
     
-img1=cv2.imread('Lenna.png')
-img=cv2.cvtColor(img1,cv2.COLOR_BGR2GRAY)
+img=cv2.imread('Lenna.png')
 cv2.namedWindow('Original image')
 cv2.imshow('Original',img)
 cv2.imwrite('Original.jpg',img)
